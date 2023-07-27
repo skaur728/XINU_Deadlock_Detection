@@ -20,7 +20,7 @@
 ### deleteOwner.c
 #### Removes the specified process as an owner of the specified semaphore; both process and semaphore are specified as parameters. 
 ### detectCycle.c
-#### Detects a cycle in the specified graph as a parameter. Uses a recursive helper function to keep track of all visited nodes and nodes in current path being checked. If a node is reached twice in the current path, there is a cycle.
+#### Detects a cycle in the specified graph as a parameter using Depth First Search (DFS) algorithm. Uses a recursive helper function to keep track of all visited nodes and nodes in current path being checked. If a node is reached twice in the current path, there is a cycle.
 ### edgeExists.c
 #### Checks if the specified edge exists in the graph.
 ### initialize.c
